@@ -21,5 +21,9 @@ function exactMatch(driver, object){
     console.log(t)
     return t
   })
-
+}
+function exactMatchToList(exactMatch){
+  exactMatch.map(function(num){
+    return num.name
+  })
 }
