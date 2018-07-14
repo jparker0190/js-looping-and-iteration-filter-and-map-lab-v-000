@@ -18,7 +18,6 @@ function exactMatch(driver, object){
     for (var key in object){
       t = num[key] == object[key]
     }
-    console.log(t)
     return t
   })
 }
