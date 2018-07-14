@@ -25,6 +25,6 @@ function exactMatchToList(driver, object){
   var t = exactMatch(driver, object)
   t.map(function(num){
     console.log(num)
-    return num.name
+    return num[name]
   })
 }
